@@ -12,8 +12,8 @@ const Footer = () => {
                 <div className="location">
                     <FaHome size={20} style={{color: "white",marginRight:"2rem"}}/>
                     <div>
-                        <p>Nanadi</p>
-                        <p>chikodi-125944.</p>
+                        <p>Nanadi.</p>
+                        <p>chikodi-591244.</p>
                         <p>Belgavi, Karnataka, India.</p>
                     </div>
                 </div>
@@ -33,9 +33,10 @@ const Footer = () => {
                 <h4>About the Studies</h4>
                 <p>This is Pushpraj Desai. Currently Studying B.Tech CSE in PES University. I enjoy discussing new projects and design challenges.</p>
                 <div className="social">
-                    <FaInstagram size={30} style={{color: "white",marginRight:"1rem"}}/>
-                    <FaTwitter size={30} style={{color: "white",marginRight:"1rem"}}/>
-                    <FaLinkedin size={30} style={{color: "white",marginRight:"1rem"}}/>
+                <a href="https://www.instagram.com/pushpraj_desai/" target="_blank" rel="noopener noreferrer"> <FaInstagram size={30} style={{color: "white",marginRight:"1rem"}}/></a>
+                <a href="https://twitter.com/pushpraj1763" target="_blank" rel="noopener noreferrer"> <FaTwitter size={30} style={{color: "white",marginRight:"1rem"}}/></a>
+                <a href="https://www.linkedin.com/in/pushpraj-desai-869655240/" target="_blank" rel="noopener noreferrer"> <FaLinkedin size={30} style={{color: "white",marginRight:"1rem"}}/></a>   
+                <a href="https://github.com/Pushpraj1522002" target="_blank" rel="noopener noreferrer"> <FaGithub size={30} style={{color: "white",marginRight:"1rem"}}/></a>
                 </div>
             </div>
         </div>
